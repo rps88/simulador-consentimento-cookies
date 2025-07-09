@@ -1,27 +1,19 @@
 # 🍪 Simulador de Consentimento de Cookies
 
-Este projeto simula a coleta de consentimento de cookies, conforme os princípios da LGPD. Desenvolvido em Python com Streamlit, ele registra a escolha do usuário (Aceitar ou Recusar) e armazena a resposta em um arquivo `.csv`.
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![LGPD](https://img.shields.io/badge/LGPD-Conformidade-green)
+![Privacidade por Design](https://img.shields.io/badge/Privacy-by--Design-blueviolet)
 
+---
+
+Este projeto simula a coleta de consentimento de cookies conforme os princípios da **LGPD** (Lei Geral de Proteção de Dados). Desenvolvido com **Python** e **Streamlit**, permite que o usuário aceite ou recuse cookies e registra essa escolha em um arquivo `.csv`, promovendo transparência e rastreabilidade.
+
+---
 ## 🚀 Como usar
 
-1. Instale o Streamlit:
-   ```
-   pip install streamlit
-   ```
-
-2. Execute o app:
-   ```
-   streamlit run app.py
-   ```
-
-3. O consentimento será registrado no arquivo `consent_log.csv`.
-
-## 📂 Arquivos
-
-- `app.py`: código principal
-- `consent_log.csv`: log de consentimentos
-- `README.md`: instruções
-
-## 👩‍💻 Autora
-
-Roberta Pereira — Jurídico + Tecnologia | LGPD, Compliance e IA Ética
+1. Instale as dependências:
+```bash
+pip install streamlit
+streamlit run app.py
+```
